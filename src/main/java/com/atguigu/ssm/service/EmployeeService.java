@@ -116,5 +116,6 @@ public class EmployeeService {
         criteria.andEmpIdIn(ids_list);
         employeeMapper.deleteByExample(employeeExample);
         System.out.println("test git");
+        System.out.println("test git1");
     }
 }
